@@ -74,6 +74,11 @@ Now that you have Python installed on your system, it's time to set up your envi
 conda create --name learning_controls python=3
 ```
 
+Just in case, run the following command to make sure Jupyter Notebook is installed:
+```
+conda install jupyter notebook
+````
+
 Activate your newly created environment:
 
 ```
