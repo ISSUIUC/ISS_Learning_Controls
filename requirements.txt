@@ -1,56 +1,38 @@
-argcomplete==1.12.3
-backcall==0.2.0
-Cerberus==1.3.4
+appnope @ file:///opt/concourse/worker/volumes/live/6ca6f098-d773-4461-5c91-a24a17435bda/volume/appnope_1606859448531/work
+backcall @ file:///home/ktietz/src/ci/backcall_1611930011877/work
 certifi==2021.5.30
-charset-normalizer==2.0.4
-coverage==5.5
 cycler==0.10.0
-debugpy==1.4.3
-decorator==5.1.0
-empy==3.3.4
+debugpy @ file:///opt/concourse/worker/volumes/live/1a15daf1-2a67-4a51-6aa1-c3bca01f7577/volume/debugpy_1629222706040/work
+decorator @ file:///tmp/build/80754af9/decorator_1621259047763/work
 entrypoints==0.3
-future==0.18.2
-idna==3.2
 imageio==2.9.0
 imageio-ffmpeg==0.4.5
-ipykernel==6.4.1
-ipython==7.27.0
-ipython-genutils==0.2.0
-jedi==0.18.0
-jupyter-client==7.0.2
-jupyter-core==4.7.1
+ipykernel @ file:///opt/concourse/worker/volumes/live/2a3b1990-854f-4397-41a0-fec023f049c2/volume/ipykernel_1629995120059/work/dist/ipykernel-6.2.0-py3-none-any.whl
+ipython @ file:///opt/concourse/worker/volumes/live/a7be9802-3c80-4a01-7774-2ca12f6b1587/volume/ipython_1628243933671/work
+ipython-genutils @ file:///tmp/build/80754af9/ipython_genutils_1606773439826/work
+jedi @ file:///opt/concourse/worker/volumes/live/4b03e428-2d0c-4635-502c-16df884971e8/volume/jedi_1611333763457/work
+jupyter-client @ file:///tmp/build/80754af9/jupyter_client_1630690655192/work
+jupyter-core @ file:///opt/concourse/worker/volumes/live/d225f67f-0726-47b9-4510-c6aff5625ca4/volume/jupyter_core_1612213300495/work
 kiwisolver==1.3.2
-lxml==4.6.3
 matplotlib==3.4.3
-matplotlib-inline==0.1.3
+matplotlib-inline @ file:///tmp/build/80754af9/matplotlib-inline_1628242447089/work
 mpmath==1.2.1
-nest-asyncio==1.5.1
+nest-asyncio @ file:///tmp/build/80754af9/nest-asyncio_1613680548246/work
 numpy==1.21.2
-nunavut==1.4.2
-pandas==1.3.2
-parso==0.8.2
-pexpect==4.8.0
-pickleshare==0.7.5
+parso @ file:///tmp/build/80754af9/parso_1617223946239/work
+pexpect @ file:///tmp/build/80754af9/pexpect_1605563209008/work
+pickleshare @ file:///tmp/build/80754af9/pickleshare_1606932040724/work
 Pillow==8.3.2
-pkgconfig==1.5.5
-prompt-toolkit==3.0.20
-psutil==5.8.0
-ptyprocess==0.7.0
+prompt-toolkit @ file:///Users/ktietz/demo/mc3/conda-bld/prompt-toolkit_1629146841569/work
+ptyprocess @ file:///tmp/build/80754af9/ptyprocess_1609355006118/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl
 pybullet==3.1.8
-pydsdl==1.12.1
-Pygments==2.10.0
-pymavlink==2.4.15
+Pygments @ file:///tmp/build/80754af9/pygments_1629234116488/work
 pyparsing==2.4.7
-pyros-genmsg==0.5.8
-python-dateutil==2.8.2
-pytz==2021.1
-pyulog==0.9.0
-pyzmq==22.2.1
-requests==2.26.0
-six==1.16.0
+python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
+pyzmq @ file:///opt/concourse/worker/volumes/live/a6b770e2-97ff-4d20-790a-688be9a9004f/volume/pyzmq_1628276022869/work
+scipy==1.7.1
+six @ file:///tmp/build/80754af9/six_1623709665295/work
 sympy==1.8
-toml==0.10.2
-tornado==6.1
-traitlets==5.1.0
-urllib3==1.26.6
-wcwidth==0.2.5
+tornado @ file:///opt/concourse/worker/volumes/live/2c1a63a2-006b-48ee-56b9-0cfe8b4927f9/volume/tornado_1606942321278/work
+traitlets @ file:///home/ktietz/src/ci/traitlets_1611929699868/work
+wcwidth @ file:///Users/ktietz/demo/mc3/conda-bld/wcwidth_1629357192024/work
