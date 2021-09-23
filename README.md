@@ -1,6 +1,10 @@
 # ISS_Learning_Controls
 Learn the fundamentals of controls!
 
+## Contributors
+
+[Jeffery Zhou](https://github.com/Jeffery-Zhou-98), [Karnap Patel](https://github.com/karnapp2), [Ayberk Yaraneri](https://github.com/AyberkY), [Kenneth Tochihara](https://github.com/ktt3)
+
 ## Purpose
 
 The purpose of this repository is to educate Illinois Space Society (ISS) members about controls. This repository includes resources and demos in which members can learn and apply control theory. The resources provided allow for learning the basics of controls theory. The demo is a playground to tinker with the control system, and get immediate feedback on the quality of system created. This repository contains all the demos and resources necessary to get a basic understanding of controls to be applied to numerous projects in ISS.
