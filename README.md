@@ -30,7 +30,9 @@ Programming is extremly heavy with the command line usage, whether that be macOS
 
 #### What are in these files?
 
-`controls-demo` contains the control code and simulations. This is where your sandbox for your control code will live. 
+`controls-startracker-demo` contains the control code and simulation for a satellite from a project in AE 353. This is where your sandbox for your control code will live for this simulator. 
+
+`controls-pendulum-demo` contains the control code and simulation for a pendulum from the Controls BootCamp from Steve Brunton. This is where your sandbox for your control code will live for this simulator. 
 
 `requirements.txt` contains all the necessary packages required to run the control simulation. Use of this file will be further explained later. 
 
