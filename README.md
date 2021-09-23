@@ -103,6 +103,10 @@ Finally, install the library dependencies using predefined dependencies:
 pip install -r requirements.txt
 ```
 
+## Contributors
+
+[Jeffery Zhou](https://github.com/Jeffery-Zhou-98), [Karnap Patel](https://github.com/karnapp2), [Ayberk Yaraneri](https://github.com/AyberkY), [Kenneth Tochihara](https://github.com/ktt3)
+
 ## References
 
 This repository was created using Professor Bretl's [AE 353 Spring 2021 Controls code base](https://github.com/tbretl/ae353-sp21).
