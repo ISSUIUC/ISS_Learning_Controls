@@ -5,6 +5,18 @@ Learn the fundamentals of controls!
 
 The purpose of this repository is to educate Illinois Space Society (ISS) members about controls. This repository includes resources and demos in which members can learn and apply control theory. The resources provided allow for learning the basics of controls theory. The demo is a playground to tinker with the control system, and get immediate feedback on the quality of system created. This repository contains all the demos and resources necessary to get a basic understanding of controls to be applied to numerous projects in ISS.
 
+## Resources
+#### YouTube Playlists
+
+- [Essence of Linear Algebra](https://www.youtube.com/watch?v=kjBOesZCoqc&list=PL0-GT3co4r2y2YErbmuJw2L5tW4Ew2O5B): Matrix math fundamentals
+- [Controls Bootcamp](https://www.youtube.com/watch?v=Pi7l8mMjYVE&list=PLMrJAkhIeNNR20Mz-VpzgfQs5zrYi085m): Basics of controls
+
+#### Coding Resources
+
+- [Codacademy Python](https://www.codecademy.com/learn/learn-python): Basics of Python
+- [Hackerrank](https://www.hackerrank.com): Coding practice
+- [AE 353 Controls Examples](https://github.com/tbretl/ae353-sp21/tree/main/examples): Controls practice (Python)
+- [Control_Bootcamp_S_Brunton](https://github.com/bertozzijr/Control_Bootcamp_S_Brunton): Controls practice (Matlab)
 ## File Structure
 
 #### Basics of Terminal Commands
@@ -19,8 +31,6 @@ Programming is extremly heavy with the command line usage, whether that be macOS
 #### What are in these files?
 
 `controls-demo` contains the control code and simulations. This is where your sandbox for your control code will live. 
-
-`resources` contains numerous resources from notes taken from YouTube tutorials. Also contains links to useful tutorials we've used to learn control theory.
 
 `requirements.txt` contains all the necessary packages required to run the control simulation. Use of this file will be further explained later. 
 
