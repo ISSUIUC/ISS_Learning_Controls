@@ -36,38 +36,6 @@ Programming is extremly heavy with the command line usage, whether that be macOS
 
 `requirements.txt` contains all the necessary packages required to run the control simulation. Use of this file will be further explained later. 
 
-## Using GitHub
-
-#### What is GitHub?
-
-GitHub is a repository (filesystem) management tool that allows for version control and management amongst numerous people. Learning how to use Git is extremely useful, and I highly reccommend learning how to use Git to be successful in developing any complex programs.
-
-Using GitHub, you can download the files from the internet and make changes locally. Then once you make the changes you're satisfied with, you can push them to the online repository where everyone else on the team can access.
-
-For more about GitHub, watch [this video](https://www.youtube.com/watch?v=w3jLJU7DT5E).
-
-#### Getting files on your computer
-
-Once you have created your account and have joined the ISS organization on GitHub, you can actually pull (download) this specific repository from the internet.
-
-In order to do that, you have to set up a personal token that verifies on your local system that you are the correct person trying to access the repository. Check out [this link](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token) to set up a token for your account. 
-
-When complete run the follwoing commands:
-
-```
-$ git clone https://github.com/ISSUIUC/ISS_Learning_Controls.git
-Username: your_username
-Password: your_token
-```
-
-#### Updating your files
-
-Sometimes there are revisions to the program that increase performance or introduce new features. Therefore, everytime you open to use this program, it is best practice pull (download) the most recent software by running the following command:
-
-```
-$ git pull origin main
-```
-
 ## Setting up your computer
 
 #### MacOS
@@ -99,6 +67,38 @@ To install Homebrew, run the following command:
 Install Git Large File Storage:
 ```
 brew install git-lfs
+```
+
+## Using GitHub
+
+#### What is GitHub?
+
+GitHub is a repository (filesystem) management tool that allows for version control and management amongst numerous people. Learning how to use Git is extremely useful, and I highly reccommend learning how to use Git to be successful in developing any complex programs.
+
+Using GitHub, you can download the files from the internet and make changes locally. Then once you make the changes you're satisfied with, you can push them to the online repository where everyone else on the team can access.
+
+For more about GitHub, watch [this video](https://www.youtube.com/watch?v=w3jLJU7DT5E).
+
+#### Getting files on your computer
+
+Once you have created your account and have joined the ISS organization on GitHub, you can actually pull (download) this specific repository from the internet.
+
+In order to do that, you have to set up a personal token that verifies on your local system that you are the correct person trying to access the repository. Check out [this link](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token) to set up a token for your account. 
+
+When complete run the follwoing commands:
+
+```
+$ git clone https://github.com/ISSUIUC/ISS_Learning_Controls.git
+Username: your_username
+Password: your_token
+```
+
+#### Updating your files
+
+Sometimes there are revisions to the program that increase performance or introduce new features. Therefore, everytime you open to use this program, it is best practice pull (download) the most recent software by running the following command:
+
+```
+$ git pull origin main
 ```
 
 ## Installing Python
