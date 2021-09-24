@@ -68,6 +68,39 @@ Sometimes there are revisions to the program that increase performance or introd
 $ git pull origin main
 ```
 
+## Setting up your computer
+
+#### MacOS
+
+Install Xcode Command Line Tools:
+
+```
+$ xcode-select --install
+```
+
+Install Homebrew to install certain packages that can be useful. First, check if you have it installed:
+
+```
+$ which brew
+/usr/local/bin/brew
+```
+
+If it's not installed, this should be output:
+```
+$ which brew
+brew not found
+```
+
+To install Homebrew, run the following command:
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+Install Git Large File Storage:
+```
+brew install git-lfs
+```
+
 ## Installing Python
 
 #### Installing Conda
@@ -86,11 +119,6 @@ Now that you have Python installed on your system, it's time to set up your envi
 conda create --name learning_controls python=3
 ```
 
-Just in case, run the following command to make sure Jupyter Notebook is installed:
-```
-conda install jupyter notebook
-````
-
 Activate your newly created environment:
 
 ```
@@ -102,6 +130,11 @@ Finally, install the library dependencies using predefined dependencies:
 ```
 pip install -r requirements.txt
 ```
+
+Just in case, run the following command to make sure Jupyter Notebook is installed:
+```
+conda install jupyter notebook
+````
 
 ## Contributors
 
