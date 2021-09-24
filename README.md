@@ -61,12 +61,12 @@ brew not found
 
 To install Homebrew, run the following command:
 ```
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
 Install Git Large File Storage:
 ```
-brew install git-lfs
+$ brew install git-lfs
 ```
 
 ## Using GitHub
