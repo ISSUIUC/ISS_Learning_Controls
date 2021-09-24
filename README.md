@@ -82,7 +82,7 @@ Go to the page [Microsoft C++ Build Tools](https://visualstudio.microsoft.com/vi
 * Double-click this `.exe` file. If a security warning appears, click Run.
 * A *Visual Studio Installer* window should appear. Click Continue and wait for installation to complete.
 * A *Visual Studio Build Tools 2019* window should appear with various package options. Choose the Desktop development with C++ package, click Install at the bottom-right corner of the window, and wait for installation to complete.
-* You should now see an "Installed" list with *Visual Studio Build Tools 2019*. If so, then you are done and can exit the installer.
+* You should now see an *Installed* list with *Visual Studio Build Tools 2019*. If so, then you are done and can exit the installer.
 * Reboot your computer if asked 
 
 
