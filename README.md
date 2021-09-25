@@ -69,6 +69,23 @@ Install Git Large File Storage:
 $ brew install git-lfs
 ```
 
+#### Windows
+
+Install Microsoft C++ Build Tools:
+
+Pybullet on Windows requires us to install Microsoft C++ Build Tools:
+
+Go to the page [Microsoft C++ Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/) and follow these steps:
+
+
+* Click Download Build Tools to download a file named something like `vs_buildtool_*.exe`.
+* Double-click this `.exe` file. If a security warning appears, click Run.
+* A *Visual Studio Installer* window should appear. Click Continue and wait for installation to complete.
+* A *Visual Studio Build Tools 2019* window should appear with various package options. Choose the Desktop development with C++ package, click Install at the bottom-right corner of the window, and wait for installation to complete.
+* You should now see an "Installed" list with *Visual Studio Build Tools 2019*. If so, then you are done and can exit the installer.
+* Reboot your computer if asked 
+
+
 ## Using GitHub
 
 #### What is GitHub?
