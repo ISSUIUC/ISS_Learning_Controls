@@ -90,6 +90,8 @@ Go to the page [Microsoft C++ Build Tools](https://visualstudio.microsoft.com/vi
 
 #### What is GitHub?
 
+A more in-depth guide on GitHub can be found on [our wiki](https://wiki.illinois.edu/wiki/pages/viewpage.action?pageId=779063487)
+
 GitHub is a repository (filesystem) management tool that allows for version control and management amongst numerous people. Learning how to use Git is extremely useful, and I highly reccommend learning how to use Git to be successful in developing any complex programs.
 
 Using GitHub, you can download the files from the internet and make changes locally. Then once you make the changes you're satisfied with, you can push them to the online repository where everyone else on the team can access.
