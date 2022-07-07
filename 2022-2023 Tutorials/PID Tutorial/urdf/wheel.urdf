@@ -1,0 +1,91 @@
+<?xml version="1.0" ?>
+<robot name="wheel">
+
+  <material name="industrial-blue">
+    <color rgba="0.11372549019607843 0.34509803921568627 0.6549019607843137 1" />
+  </material>
+
+  <material name = "heritage-orange">
+    <color rgba = "0.96078431 0.50980392 0.11764706 1" />
+  </material>
+
+  <link name="world"/>
+
+  <link name="base_link">
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+  			<mesh filename="disc.stl" scale="0.1 0.1 0.1"/>
+      </geometry>
+      <material name="industrial-blue"/>
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.1" length="0.1"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <mass value="0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+  </link>
+
+  <link name="wheel_link">
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+  			<mesh filename="disc.stl" scale="0.5 0.5 0.2"/>
+      </geometry>
+      <material name = "industrial-blue"/>
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.5" length="0.2"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <mass value="1.5707963267948966"/>
+      <inertia ixx="0.10341075818066402" ixy="0" ixz="0" iyy="0.10341075818066402" iyz="0" izz="0.19634954084936207"/>
+    </inertial>
+  </link>
+
+  <link name="fiducial_link">
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+  			<mesh filename="disc.stl" scale="0.1 0.1 0.04"/>
+      </geometry>
+      <material name = "heritage-orange"/>
+    </visual>
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <mass value="0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+  </link>
+
+  <joint name="world_to_base_fixed" type="fixed">
+		<parent link = "world" />
+		<child link = "base_link" />
+    <origin xyz = "0 0 0.05" />
+	</joint>
+
+  <joint name="base_to_wheel" type="continuous">
+		<parent link = "base_link" />
+		<child link = "wheel_link" />
+		<origin xyz = "0 0 0.15" />
+		<axis xyz = "0 0 1" />
+		<limit effort="1000" velocity="1000"/>
+	</joint>
+
+  <joint name="wheel_to_fiducial_fixed" type="fixed">
+		<parent link = "wheel_link" />
+		<child link = "fiducial_link" />
+    <origin xyz = "0.35 0 0.102" />
+	</joint>
+
+</robot>
