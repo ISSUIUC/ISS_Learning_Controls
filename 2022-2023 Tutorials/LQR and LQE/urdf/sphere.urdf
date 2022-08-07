@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<robot name="sphere">
+  <material name = "dark-yellow">
+    <color rgba = "1.0 0.8196078431 0.1450980392 1" />
+  </material>
+
+  <link name="sphere_link">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <mass value="0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <sphere radius="0.15"/>
+      </geometry>
+      <material name="dark-yellow"/>
+    </visual>
+  </link>
+</robot>
