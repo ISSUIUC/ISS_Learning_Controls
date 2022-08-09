@@ -157,7 +157,7 @@ conda install jupyter notebook
 
 ## Contributors
 
-[Jeffery Zhou](https://github.com/Jeffery-Zhou-98), [Karnap Patel](https://github.com/karnapp2), [Ayberk Yaraneri](https://github.com/AyberkY), [Kenneth Tochihara](https://github.com/ktt3)
+[Jeffery Zhou](https://github.com/Jeffery-Zhou-98), [Karnap Patel](https://github.com/karnapp2), [Ayberk Yaraneri](https://github.com/AyberkY), [Kenneth Tochihara](https://github.com/ktt3), [Parth Shrotri](https://github.com/parthshrotri)
 
 ## References
 
