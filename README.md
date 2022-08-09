@@ -161,4 +161,4 @@ conda install jupyter notebook
 
 ## References
 
-This repository was created using Professor Bretl's [AE 353 Spring 2021 Controls code base](https://github.com/tbretl/ae353-sp21).
+All of our tutorials for 2022-2023 are based on the inclass examples given by Professor Tim Bretl in AE353 Spring 2022. We are grateful for his support in using these examples to introduce ISS members to GNC. His original code, notes and reference materials can be found [here](https://github.com/tbretl/ae353-sp22).
